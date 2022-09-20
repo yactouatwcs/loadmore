@@ -1,4 +1,5 @@
 <?php 
+// Connexion à la BDD
 require('function.php');
 ?>
 
@@ -11,17 +12,10 @@ $image_req->execute();
 <!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <!-- Integration de fichier CSS -->
-        <link rel="stylesheet" href="style.css" />
-
-        <title>Load more - 1/3</title>
-    </head>
-
+    <?php
+    require('head.php');
+    ?>
+    
     <body>
         <section>
             <div id="gallery">

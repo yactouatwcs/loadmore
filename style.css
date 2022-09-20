@@ -1,3 +1,8 @@
+:root{
+    --dark-mode: #202124;
+    --light-mode: #eaeae8;
+}
+
 *{
     margin: 0;
     padding: 0;
