@@ -17,6 +17,12 @@ $image_req->execute();
     ?>
     
     <body>
+
+        <div id="on_off-btns">
+            <div class="sun off">   <button>  <img src="img/sun.png" alt="light mode" title="On button">    </button>    </div>
+            <div class="moon">      <button>  <img src="img/moon.png" alt="dark mode" title="Off button">   </button>    </div> 
+        </div>
+
         <section>
             <div id="gallery">
                 <?php
@@ -32,5 +38,7 @@ $image_req->execute();
             </div>
         </section>
     </body>
+
+    <script src="app.js"></script>
 
 </html>

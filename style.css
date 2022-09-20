@@ -13,6 +13,43 @@
     text-decoration: none;
 }
 
+body{
+    background-color: var(--light-mode);
+}
+
+/* ON OFF Buttons */
+#on_off-btns{
+    width: 100%;
+    position: relative;
+}
+
+#on_off-btns div{
+    width: 50px;
+    position: absolute;
+    top: -75px;
+    left: 5px;
+}
+
+#on_off-btns div img{
+    width: 100%;
+}
+
+#on_off-btns button{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.dark-mode{
+    background-color: var(--dark-mode);
+}
+
+.off{
+    display: none;
+}
+
+/* Gallery */
 section{
     width: 100%;
     margin-top: 5rem;
@@ -45,6 +82,7 @@ section{
     border: 1px solid black;
     box-shadow: 10px 10px 30px black ;
 }
+
 
 
 
