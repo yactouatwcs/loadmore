@@ -29,7 +29,7 @@ $image_req->execute();
                 while($all_image = $image_req->fetch()){
                 ?>
                 <div>
-                    <a href=""><img src="<?= $all_image['image_root']; ?>" alt="" /></a>
+                    <a href=""><img src="<?= $all_image['image_root']; ?>" title="Inna's photo" alt="image" /></a>
                 </div>
                 <?php
                 }
